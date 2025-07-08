@@ -75,11 +75,11 @@ function Home() {
 
         {/* ช่องทางติดตาม */}
         <div className="follow-section">
-          <div className="follow-title">ติดตามผลงานเราได้ที่</div>
+          <div className="follow-title">FOLLOW WE</div>
           <div className="follow-links">
-            <a href="https://facebook.com/nbgear" target="_blank" rel="noopener noreferrer" className="follow-link fb">Facebook</a>
-            <a href="https://instagram.com/nbgear" target="_blank" rel="noopener noreferrer" className="follow-link ig">Instagram</a>
-            <a href="https://youtube.com/nbgear" target="_blank" rel="noopener noreferrer" className="follow-link yt">YouTube</a>
+            <a href="https://www.facebook.com/profile.php?id=61551691236575&locale=th_TH" target="_blank" rel="noopener noreferrer" className="follow-link fb">Facebook</a>
+            <a href="https://www.instagram.com/kmutnb_gears_22999/" target="_blank" rel="noopener noreferrer" className="follow-link ig">Instagram</a>
+            <a href="https://www.youtube.com/@KMUTNBGears" target="_blank" rel="noopener noreferrer" className="follow-link yt">YouTube</a>
           </div>
         </div>
       </div>

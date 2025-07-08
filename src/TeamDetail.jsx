@@ -4,31 +4,31 @@ import { useParams, Link } from 'react-router-dom';
 const teamData = {
   Building: {
     color: '#ff6f00',
-    description: 'ทีม Building รับผิดชอบการออกแบบและสร้างหุ่นยนต์ให้แข็งแรงและมีประสิทธิภาพสูงสุด',
+    description: 'ทีม Building รับผิดชอบการออกแบบและสร้างหุ่นยนต์ให้เท่ระเบิดแบบระเบิดจริงๆ',
     members: [
-      { name: 'Aom', role: 'หัวหน้าทีม', img: 'public/monkey.png' },
-      { name: 'Bank', role: 'ช่างเทคนิค', img: 'public/monkey.png' },
-      { name: 'Mild', role: 'ออกแบบโครงสร้าง', img: 'public/monkey.png' },
+      { name: 'Aom', role: 'หัวหน้าทีม', img: '/public/monkey.png' },
+      { name: 'Bank', role: 'ช่างเทคนิค', img: '/public/monkey.png' },
+      { name: 'Mild', role: 'ออกแบบโครงสร้าง', img: '/public/monkey.png' },
     ],
   },
   Marketing: {
     color: '#ff6f00',
-    description: 'ทีม Marketing ดูแลการประชาสัมพันธ์และนำเสนอผลงานของทีมสู่สายตาคนภายนอก',
+    description: 'ทีม Marketing ดูแลการประชาสัมพันธ์และนำเสนอผลงาน(มีม)ของทีมสู่สายตาคนภายนอก',
     members: [
-      { name: 'Jane', role: 'หัวหน้าทีม', img: 'public/monkey.png' },
-      { name: 'Fah', role: 'ครีเอทีฟ', img: 'public/monkey.png' },
-      { name: 'Tle', role: 'ตัดต่อ/กราฟิก', img: 'public/monkey.png' },
+      { name: 'Jane', role: 'หัวหน้าทีม', img: '/public/monkey.png' },
+      { name: 'Fah', role: 'ครีเอทีฟ', img: '/public/monkey.png' },
+      { name: 'Tle', role: 'ตัดต่อ/กราฟิก', img: '/public/monkey.png' },
     ],
   },
   Programming: {
     color: '#ff6f00',
-    description: 'ทีม Programming พัฒนาซอฟต์แวร์และควบคุมการทำงานของหุ่นยนต์',
+    description: 'ทีม Programming พัฒนาซอฟต์แวร์และควบคุมการทำงานของหุ่นยนต์(บงการตามใจนึก)',
     members: [
-      { name: 'ภาวิช', role: 'หัวหน้าทีม', img: 'public/monkey.png' },
-      { name: 'Pond', role: 'AI Developer', img: 'public/monkey.png' },
-      { name: 'Nina', role: 'Embedded Dev', img: 'public/monkey.png' },
-      { name: 'Nina', role: 'Embedded Dev', img: 'public/monkey.png' },
-      { name: 'Nina', role: 'Embedded Dev', img: 'public/monkey.png' }
+      { name: 'ภาวิช', role: 'หัวหน้าทีม', img: '/public/monkey.png' },
+      { name: 'Pond', role: 'AI Developer', img: '/public/monkey.png' },
+      { name: 'Nina', role: 'Embedded Dev', img: '/public/monkey.png' },
+      { name: 'Nina', role: 'Embedded Dev', img: '/public/monkey.png' },
+      { name: 'Nina', role: 'Embedded Dev', img: '/public/monkey.png' }
     ],
   },
 };
